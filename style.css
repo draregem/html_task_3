@@ -1,0 +1,111 @@
+/*stylesheets*/
+
+body{
+ background-color:  #1c2e3b;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: rgb(87, 85, 85);
+}
+
+.profilepic{
+  height:300px ;
+  width: 300px;
+  border-radius:50% ;
+  align-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 3px #c4d1ce;
+}
+.username{
+    color: #8dddcc;
+    text-align: center;
+    /* font-size: 1.8rem; */
+    font: 300 1.8rem "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.navbar{
+    background-color: rgb(226, 213, 213);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: sticky;
+}
+.nav-links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .nav-data {
+    float: left;
+    margin-left: 200px;
+  }
+  
+  .nav-data a {
+    display: block;
+    color: #8dddcc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .nav-data a:hover {
+    background-color: #111;
+  }
+  
+  .bio{
+      background-color:#ddf8f2;
+      height: 180px;
+      width: 300px;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 2px 2px 3px 3px;
+    border: solid 1px #555;
+    /* background-color: rgb(245, 236, 236); */
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+
+  .hobbies{
+    background-color:#ddf8f2 ;
+      height: 180px;
+      width: 300px;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 2px 2px 3px 3px;
+      border: solid 1px #555;
+      /* background-color: rgb(245, 236, 236); */
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+      -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+      -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+      -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+
+  .contact-details{
+    background-color: #b2f0e2;
+      width: 300px;
+      height: 180px;
+      margin: auto auto auto auto;
+      border-radius: 10px;
+      padding: 10px;
+  }
+
+  .inputs{
+      display: block;
+      margin-bottom: 20px;
+      width: 300px;
+      
+  }
+  .feedback{
+      width: 300px;
+      height: 100px;
+  }
+
+  #details{
+      display: grid;
+      grid-template-columns: auto auto auto;
+  }
